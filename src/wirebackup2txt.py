@@ -135,6 +135,10 @@ if __name__ == '__main__':
 		exit()
 
 	srcfile = args[0]
+	if not os.path.exists(srcfile):
+		print('Couldnt find backup file {}'.format(srcfile))
+		exit()
+
 	(convs, events) = get_bkup_info(srcfile)
 
 	if os.path.exists('users.json'):

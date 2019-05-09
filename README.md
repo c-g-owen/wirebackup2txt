@@ -12,3 +12,8 @@ Use Wire for desktop to get a backup of your conversations. Clone this repo, the
 python src/wirebackup2txt.py -e <email address> -p <password> [-d <destination>] <backup file>
 ```
 
+## Disclaimer
+
+This script is provided 'as-is' and not guaranteed to work, the format of the backups may change.
+
+
